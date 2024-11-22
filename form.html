@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>expreso s</title>
+	</head>
+	<body>
+		<form action = "recoger2.php" method="post">
+                        
+			<label>Digite su Nombre y apellidos</label>
+			
+			<input type="text" name="nombre" size="20" placeholder="Digite nombre" /><br/><br>
+			<label>Digite su Edad</label><input type="number" name="Edad" min="1" max="90" required placeholder="Edad" /><br/><br>
+                        <label>Digite su Direccion</label><input type="text" name="Direccion" min="1" max="90" required placeholder="Direccion" /><br/><br>
+			<label>Seleccione fecha de viaje </label><input type="date" name="Fecha" required/><br/><br>
+			<label for="VIP">Es usted un cliente vip ?</label><br/>
+			<input type="radio" name="VIP" value="si">Si<br/>
+			<input type="radio" name="VIP" value="no">No<br/>
+            <label>Seleccione Ciudad Destino</label><br/>
+			<select name="Provincia">
+				<option>Madrid</option>
+				<option>Sevilla</option>
+				<option>Bilbao</option>
+				<option>Barcelona</option>
+			</select>
+			<br> <br>
+			<input type="submit" value="Guardar!!" />
+		</form>
+
+	</body>
+</html>
